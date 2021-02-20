@@ -1,0 +1,87 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  section {
+    margin: 50px 0;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .nav-row {
+    align-items: center;
+    display: flex;
+  }
+
+  #menu-responsive {
+    color: white;
+    display: block;
+    font-size: 3rem;
+  }
+
+  #menu-elements, #menu-icons {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 250px;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5);
+  }
+
+  .catégorie article h2 {
+    left: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5);
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .product {
+    width: 100%;
+  }
+
+  .promotion, .newsletter {
+    margin-bottom: 20px;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  .newletter label {
+    margin: 0;
+  }
+
+  .services {
+    font-size: 0.7rem;
+  }
+
+  .promo p {
+    font-size: 1.5rem;
+  }
+
+  .btn-promo {
+    left: 90px;
+  }
+
+  footer p, footer li, .footer-col i {
+    font-size: 0.8rem;
+  }
+
+  #back-to-top {
+    display: none;
+  }
+}
